@@ -9,4 +9,3 @@ def my_all?(collection)
   end
   false
 end
-  
