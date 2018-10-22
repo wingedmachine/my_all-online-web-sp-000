@@ -6,7 +6,6 @@ def my_all?(collection)
     if yield(collection[i]) == true
       return true
     end
-    binding.pry
     i += 1
   end
   false
